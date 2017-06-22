@@ -51,10 +51,10 @@
                         @if(!Auth::guest())
                             <li><a href="{{ route('posts.create') }}">New Article</a></li>
                         @endif
+                        <li><a href="{{ route('users.index') }}">Users</a></li>
                         @hasrole('Admin')
                             <li><a href="{{ route('roles.index') }}">Roles</a></li>
                             <li><a href="{{ route('permissions.index') }}">Permissions</a></li>
-                            <li><a href="{{ route('users.index') }}">Users</a></li>
                         @else
 
                         @endhasrole
