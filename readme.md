@@ -19,3 +19,11 @@
 * `php artisan key:generate`
 
 * php artisan migrate 
+
+### Panduan Singkat
+* Masuk localhost:8000, 
+* Register Admin
+* Kemudian Login Admin buka permissions atau localhost:8000/permissions, buat Permission Create Post, Edit Post, Delete Post dan      Administer roles & permissions
+* Buat Role atau localhost:8000/roles kmudian buat role
+* gabungkan permission dan role 
+
